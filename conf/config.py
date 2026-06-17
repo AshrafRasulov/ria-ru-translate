@@ -7,13 +7,33 @@ API_HASH = '4903b962cac1058c0663f14c57509e60'
 # Имя сессии (создается автоматически, не меняйте без нужды)
 SESSION_NAME = 'my_session'
 
-# Каналы:
-SOURCE_CHANNEL = 'rian_ru'      # ID или юзернейм канала, из которого копируем
-TARGET_CHANNEL = 'riantestru'   # ID или юзернейм вашего канала, куда отправляем
+# Каналы: ID или юзернейм канала, из которого копируем
+SOURCE_CHANNELS = [
+    'rian_ru',
+    'vremya_novosti',
+    'okaytrend',
+    'kommentarii_medved',
+    'IT_Portal',
+    'nadivaneworkbot',
+    'RVvoenkor'
+    ]
+TARGET_CHANNEL = 'riantestru' # ID или юзернейм вашего канала, куда отправляем
 
 # Настройки перевода:
 # Язык, на который нужно переводить (например, 'uz' - узбекский, 'en' - английский)
-TARGET_LANG = 'uz'
+# Настройка языков (добавьте сюда любые новые языки)
+LANGUAGES = {
+    'uz': '🇺🇿 Uzbek',
+    'en': '🇬🇧 English',
+    'ru': '🇷🇺 Russian',
+    'kk': '🇰🇿 Kazakh',
+    'ky': '🇰🇬 Kyrgyz',
+    'tg': '🇹🇯 Tajik',
+    'az': '🇦🇿 Azerbaijani',
+    'tr': '🇹🇷 Turkish',
+    'uk': '🇺🇦 Ukrainian',
+    'de': '🇩🇪 German'
+}
 
 # --- НАСТРОЙКИ ДЛЯ ОБЛАЧНОГО СЕРВЕРА (RENDER.COM / VPS) ---
 # Раскомментируйте эти строки при запуске на постоянной основе (через 3 месяца или при переходе на платный тариф)
