@@ -1,1 +1,25 @@
-my_session.session 
+# --- Игнорирование сессий и секретов ---
+session/
+*.session
+*.session-journal
+
+# --- Игнорирование конфигураций и базы пользователей ---
+# Игнорируем все JSON файлы внутри папок conf/users/
+conf/users/**/*.json
+
+# Но при этом разрешаем admin.json, если он нужен для работы на сервере
+# !conf/users/en/admin.json 
+
+# --- Игнорирование архивов новостей и картинок ---
+news-links/
+# Если нужно сохранить структуру папок, но исключить данные:
+# news-links/**/*.json
+# news-links/**/*.jpg
+# news-links/**/*.png
+
+# --- Системные папки ---
+venv/
+__pycache__/
+.env
+.DS_Store
+project/
