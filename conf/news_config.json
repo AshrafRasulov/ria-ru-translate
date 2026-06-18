@@ -1,0 +1,11 @@
+
+{
+  "ria_news": {"icon": "ria.png", "name": "РИА Новости", "url": "https://ria.ru"},
+  "rossia_news": {"icon": "r24.png", "name": "Россия 24", "url": "https://vesti.ru"},
+  "vremya_novosti": {"icon": "vremya.png", "name": "Время Новостей", "url": "https://vremyanovostei.ru"},
+  "rentv_news": {"icon": "rentv.png", "name": "РЕН ТВ Новости", "url": "https://ren.tv"},
+  "news_1tv": {"icon": "1tv.png", "name": "Первый канал Новости", "url": "https://www.1tv.ru/news"},
+  "gazetaru": {"icon": "gazeta.png", "name": "Газета.ру", "url": "https://www.gazeta.ru"},
+  "lentadnya": {"icon": "lenta.png", "name": "Лента.ру", "url": "https://lenta.ru"},
+  "RVvoenkor": {"icon": "voenkor.png", "name": "Военкор", "url": "https://voenkor.info"}  
+}

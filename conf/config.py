@@ -5,21 +5,6 @@ API_ID = 38983025
 API_HASH = '4903b962cac1058c0663f14c57509e60'
 ADMIN_ID = 123456789 # Ваш Telegram ID для получения уведомлений и управления ботом
 
-
-# Имя сессии (создается автоматически, не меняйте без нужды)
-SESSION_NAME = 'my_session'
-
-# Каналы: ID или юзернейм канала, из которого копируем
-SOURCE_CHANNELS = [
-    'rian_ru',
-    'vremya_novosti',
-    'RVvoenkor'
-    ]
-
-SOURCE_CHANNELS_BAN = ['botsbaseru', 'bad_news_channel']
-
-TARGET_CHANNEL = 'riantestru' # ID или юзернейм вашего канала, куда отправляем
-
 # Настройки перевода:
 # Язык, на который нужно переводить (например, 'uz' - узбекский, 'en' - английский)
 # Настройка языков (добавьте сюда любые новые языки)
@@ -35,6 +20,27 @@ LANGUAGES = {
     'uk': '🇺🇦 Ukrainian',
     'de': '🇩🇪 German'
 }
+
+
+# Имя сессии (создается автоматически, не меняйте без нужды)
+SESSION_NAME = 'my_session'
+
+# Каналы: ID или юзернейм канала, из которого копируем
+SOURCE_CHANNELS = [
+    'rian_ru',
+    'rossia_news',
+    'vremya_novosti',
+    'rentv_news',
+    'news_1tv',
+    'gazetaru',
+    'lentadnya',
+    'RVvoenkor'
+    ]
+
+SOURCE_CHANNELS_BAN = ['botsbaseru', 'bad_news_channel']
+
+TARGET_CHANNEL = 'riantestru' # ID или юзернейм вашего канала, куда отправляем
+
 
 # --- НАСТРОЙКИ ДЛЯ ОБЛАЧНОГО СЕРВЕРА (RENDER.COM / VPS) ---
 # Раскомментируйте эти строки при запуске на постоянной основе (через 3 месяца или при переходе на платный тариф)
