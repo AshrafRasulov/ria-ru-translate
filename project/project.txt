@@ -18,6 +18,7 @@ PROJECT TREE:
                 users.json
             uz/
                 users.json
+    icons/
     news-links/
         18-06-2026-news-links.json
         18-06-2026/
@@ -318,14 +319,14 @@ FILE: .\conf\news_config.json
 ------------------------------
 
 {
-  "ria_news": {"icon": "ria.png", "name": "РИА Новости", "url": "https://ria.ru"},
-  "rossia_news": {"icon": "r24.png", "name": "Россия 24", "url": "https://vesti.ru"},
-  "vremya_novosti": {"icon": "vremya.png", "name": "Время Новостей", "url": "https://vremyanovostei.ru"},
-  "rentv_news": {"icon": "rentv.png", "name": "РЕН ТВ Новости", "url": "https://ren.tv"},
-  "news_1tv": {"icon": "1tv.png", "name": "Первый канал Новости", "url": "https://www.1tv.ru/news"},
-  "gazetaru": {"icon": "gazeta.png", "name": "Газета.ру", "url": "https://www.gazeta.ru"},
-  "lentadnya": {"icon": "lenta.png", "name": "Лента.ру", "url": "https://lenta.ru"},
-  "RVvoenkor": {"icon": "voenkor.png", "name": "Военкор", "url": "https://voenkor.info"}  
+  "ria_news": {"icon": "icons/ria.png", "name": "РИА Новости", "url": "https://ria.ru"},
+  "rossia_news": {"icon": "icons/r24.png", "name": "Россия 24", "url": "https://vesti.ru"},
+  "vremya_novosti": {"icon": "icons/vremya.png", "name": "Время Новостей", "url": "https://vremyanovostei.ru"},
+  "rentv_news": {"icon": "icons/rentv.png", "name": "РЕН ТВ Новости", "url": "https://ren.tv"},
+  "news_1tv": {"icon": "icons/1tv.png", "name": "Первый канал Новости", "url": "https://www.1tv.ru/news"},
+  "gazetaru": {"icon": "icons/gazeta.png", "name": "Газета.ру", "url": "https://www.gazeta.ru"},
+  "lentadnya": {"icon": "icons/lenta.png", "name": "Лента.ру", "url": "https://lenta.ru"},
+  "RVvoenkor": {"icon": "icons/voenkor.png", "name": "Военкор", "url": "https://voenkor.info"}  
 }
 
 ==============================
@@ -428,6 +429,12 @@ FILE: .\news-links\18-06-2026-news-links.json
         "images": [
             "news-links/18-06-2026/img/340658_0.jpg"
         ],
+        "source": "rian_ru"
+    },
+    {
+        "id": 340661,
+        "text": "**Начался 60-дневный период, во время которого США и Иран будут согласовывать финальную сделку. **\n\nОб этом сообщил Вэнс, говоря о деталях подписанного меморандума. \n\n🔹 [Подписаться на РИА Новости](https://t.me/rian_ru)",
+        "images": [],
         "source": "rian_ru"
     }
 ]
